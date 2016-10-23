@@ -4,6 +4,14 @@
 
 Just type a query into your editor and run `:Sourcerer` to query Stackoverflow. Select the answer you want and it appears in your editor
 
+## Setup
+
+Works with any VIM plugin manager. Here's an example with [vim-plug](https://github.com/junegunn/vim-plug)
+
+```
+Plug 'DonnieWest/sourcerer.nvim'
+```
+
 ## Configuration
 
 To set comment style for your filetype:
