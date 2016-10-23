@@ -1,0 +1,17 @@
+{
+  "name": "sourcerer.nvim",
+  "version": "0.1.0",
+  "description": "A neovim copy of [sourcerer](https://github.com/NickTikhonov/sourcerer) for Atom",
+  "author": "Donnie West <me@donniewest.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "google": "^2.1.0",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.0.1"
+  }
+}
