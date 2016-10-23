@@ -1,5 +1,9 @@
 # Sourcerer.nvim
 
+## Usage
+
+Just type a query into your editor and run `:Sourcerer` to query Stackoverflow. Select the answer you want and it appears in your editor
+
 ## Configuration
 
 To set comment style for your filetype:
