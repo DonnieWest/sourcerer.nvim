@@ -6,9 +6,11 @@ Just type a query into your editor and run `:Sourcerer` to query Stackoverflow. 
 
 ## Setup
 
+Requires neovim's [node-host](https://github.com/neovim/node-host)
 Works with any VIM plugin manager. Here's an example with [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```
+Plug 'neovim/node-host'
 Plug 'DonnieWest/sourcerer.nvim'
 ```
 
