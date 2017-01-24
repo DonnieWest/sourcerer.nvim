@@ -16,15 +16,6 @@ Plug 'DonnieWest/sourcerer.nvim'
 
 ## Configuration
 
-To set comment style for your filetype:
-
-```
-autocmd FileType vim setlocal g:sourcerer_comment_text='"'
-```
-
-Defaults to '//'
-
-
 To set the minimum number of votes to be included in the selection:
 
 ```

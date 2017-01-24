@@ -12,5 +12,3 @@ let g:sourcerer_feeling_lucky =
       \ get(g:, 'sourcerer_feeling_lucky', 0)
 let g:sourcerer_insert_answer_text =
       \ get(g:, 'sourcerer_insert_answer_text', 1)
-let g:sourcerer_comment_text =
-      \ get(g:, 'sourcerer_comment_text', '//')

@@ -27,13 +27,15 @@ function getConfiguration(nvim, callback) {
     nvim.eval('g:sourcerer_minimum_snippets', (err, minSnippets) => {
       nvim.eval('g:sourcerer_feeling_lucky', (err, feelingLucky) => {
         nvim.eval('g:sourcerer_insert_answer_text', (err, insertText) => {
-          nvim.eval('g:sourcerer_comment_text', (err, commentText) => {
-            callback(err, {
-              minVotes,
-              minSnippets,
-              feelingLucky,
-              insertText,
-              commentText,
+          nvim.getCurrentBuffer((err, buffer) => {
+            buffer.getOption('commentstring', (err, commentText) => {
+              callback(err, {
+                minVotes,
+                minSnippets,
+                feelingLucky,
+                insertText,
+                commentText,
+              });
             });
           });
         });
